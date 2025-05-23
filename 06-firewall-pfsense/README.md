@@ -1,29 +1,23 @@
-# Project Write-Up #6: Enterprise Firewall Implementation with pfSense
+# 🧱 pfSense Firewall Lab – Basic & Enterprise Deployments
 
-**Date:**  
-May 2025
+This folder contains two versions of a lab for implementing pfSense as an enterprise firewall:
 
-**Objective:**  
-Design and deploy a secure network using pfSense as a perimeter firewall and internal segmentation system, including VPN access, VLAN separation, and IDS integration.
+## 🔹 Basic Lab
+A minimal and functional setup that includes:
+- WAN ↔ pfSense ↔ LAN
+- Basic NAT, firewall rules
+- DHCP and DNS configuration
+- Network segmentation simulation
 
-**Environment Used:**  
-- pfSense VM (2 NICs)  
-- VirtualBox or Proxmox  
-- Client/Server nodes  
-- OpenVPN, Snort, DHCP, DNS
+📂 See [`basic-lab/README.md`](basic-lab/README.md)
 
-**Activities:**  
-- pfSense installation and setup  
-- Configuration of firewall rules, NAT, VLANs  
-- Setup of VPN tunnel and Snort IDS  
-- Validation through simulated traffic
+---
 
-**Results Achieved:**  
-- Functional segmented network with secure remote access  
-- Real-time intrusion detection  
-- Hardened gateway firewall
+## 🏢 Enterprise Lab (Coming Soon)
+An advanced topology with:
+- VLANs (LAN, DMZ, GUEST)
+- OpenVPN for remote access
+- IDS/IPS (Snort or Suricata)
+- Syslog forwarding, dashboard integration
 
-**Skills Gained:**  
-- pfSense administration  
-- Network perimeter defense  
-- IDS tuning and secure VPN
+📂 Placeholder for [`enterprise-lab/`](enterprise-lab/)

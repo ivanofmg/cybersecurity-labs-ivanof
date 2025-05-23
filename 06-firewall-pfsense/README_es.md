@@ -1,29 +1,23 @@
-# Informe de Proyecto #6: Implementación de Firewall Empresarial con pfSense
+# 🧱 Laboratorio de Firewall con pfSense – Implementación Básica y Empresarial
 
-**Fecha:**  
-Mayo de 2025
+Esta carpeta contiene dos versiones de un laboratorio práctico utilizando pfSense como firewall empresarial:
 
-**Objetivo:**  
-Diseñar y desplegar una red segura utilizando pfSense como firewall perimetral con segmentación interna, acceso remoto por VPN y sistema IDS.
+## 🔹 Laboratorio Básico
+Una configuración funcional y mínima que incluye:
+- Conexión WAN ↔ pfSense ↔ LAN
+- Reglas básicas de NAT y firewall
+- Configuración de DHCP y DNS
+- Simulación de segmentación de red
 
-**Entorno Utilizado:**  
-- Máquina virtual pfSense (2 interfaces de red)  
-- VirtualBox o Proxmox  
-- Clientes y servidores simulados  
-- OpenVPN, Snort, DHCP, DNS
+📂 Ver [`basic-lab/README_es.md`](basic-lab/README_es.md)
 
-**Actividades:**  
-- Instalación de pfSense  
-- Configuración de reglas de firewall, NAT y VLANs  
-- Implementación de túnel VPN y Snort IDS  
-- Validación con tráfico simulado
+---
 
-**Resultados Obtenidos:**  
-- Red segmentada funcional con acceso remoto seguro  
-- Sistema de detección de intrusos activo  
-- Puerta de enlace reforzada
+## 🏢 Laboratorio Empresarial (Próximamente)
+Una topología avanzada que incluirá:
+- VLANs (LAN, DMZ, GUEST)
+- Acceso remoto por OpenVPN
+- IDS/IPS (Snort o Suricata)
+- Redirección de logs y dashboards de monitoreo
 
-**Habilidades Adquiridas:**  
-- Administración de pfSense  
-- Defensa de perímetro de red  
-- Túneles VPN y configuración IDS
+📂 Espacio reservado para [`enterprise-lab/`](enterprise-lab/)
