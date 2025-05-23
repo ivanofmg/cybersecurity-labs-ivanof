@@ -1,14 +1,24 @@
-# Cybersecurity Labs Portfolio by Ivanof
+# 🛡️ Cybersecurity Labs Portfolio by Ivanof
 
-This repository showcases a series of practical cybersecurity labs covering system hardening, network traffic analysis, ethical hacking (CTFs), network simulation, SIEM deployment, and firewall configuration. Each lab includes its own documentation and setup instructions.
+Welcome! This repository contains a curated set of hands-on cybersecurity labs designed and documented by **Ivanof**, a Master's student specializing in Cybersecurity Operations and Cyber Warfare.
 
-## Included Labs
+## 🔍 About
 
-1. **Windows Server 2016 Hardening (CIS STIG)**
-2. **Network Traffic Analysis with Wireshark**
-3. **Advanced CTF Challenges in Kali Linux**
-4. **Network Simulation with MikroTik + GNS3**
-5. **SIEM Implementation with Wazuh + ELK** (Coming soon)
-6. **Enterprise Firewall with pfSense** (Coming soon)
+These labs cover both offensive and defensive disciplines, from system hardening and network traffic analysis to ethical hacking, SIEM deployment, and enterprise firewall simulation. Ideal for professionals, students, and recruiters looking to assess practical security skills.
 
-> All labs are structured for educational purposes and follow best practices in cybersecurity operations.
+---
+
+## 📚 Labs Overview
+
+| # | Title | Description |
+|--|-------|-------------|
+| 1 | [Windows Server 2016 Hardening (CIS STIG)](01-windows-hardening-stig) | Hardening based on CIS STIG v1.1.0 |
+| 2 | [Network Traffic Analysis with Wireshark](02-wireshark-traffic-analysis) | Packet-level analysis and anomaly detection |
+| 3 | [CTF Challenges in Kali Linux](03-ctf-kali-linux) | Realistic exploitation scenarios |
+| 4 | [Network Simulation with MikroTik + GNS3](04-mikrotik-gns3-simulation) | Enterprise topology with VLAN, QoS, Routing |
+| 5 | [SIEM with Wazuh + ELK](05-siem-wazuh) | Full-stack security monitoring system |
+| 6 | [Enterprise Firewall with pfSense](06-firewall-pfsense) | Multi-zone segmentation with IDS and VPN |
+
+> 🇪🇸 Spanish versions available in each folder as `README_es.md`.
+
+---
