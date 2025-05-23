@@ -1,29 +1,29 @@
-# Project Write-Up #6: Enterprise Firewall Implementation with pfSense
+# Project Write-Up #6: Enterprise Firewall Implementation with pfSense (Basic Version)
 
 **Date:**  
 May 2025
 
 **Objective:**  
-Design and deploy a secure network using pfSense as a perimeter firewall and internal segmentation system, including VPN access, VLAN separation, and IDS integration.
+Design and deploy a secure network using pfSense as a perimeter firewall with LAN/WAN routing and basic firewall rule sets.
 
 **Environment Used:**  
 - pfSense VM (2 NICs)  
 - VirtualBox or Proxmox  
-- Client/Server nodes  
-- OpenVPN, Snort, DHCP, DNS
+- Client/Server VMs  
+- DHCP and DNS setup
 
 **Activities:**  
-- pfSense installation and setup  
-- Configuration of firewall rules, NAT, VLANs  
-- Setup of VPN tunnel and Snort IDS  
-- Validation through simulated traffic
+- pfSense installation and initial setup  
+- Configuration of LAN/WAN interfaces  
+- Creation of NAT and firewall rules  
+- Basic connectivity testing
 
 **Results Achieved:**  
-- Functional segmented network with secure remote access  
-- Real-time intrusion detection  
-- Hardened gateway firewall
+- Functional segmented network  
+- Verified firewall enforcement  
+- Ready foundation for enterprise-grade expansion
 
 **Skills Gained:**  
 - pfSense administration  
-- Network perimeter defense  
-- IDS tuning and secure VPN
+- Network routing and NAT  
+- Rule-based traffic control

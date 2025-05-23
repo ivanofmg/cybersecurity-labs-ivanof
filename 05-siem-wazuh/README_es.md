@@ -1,29 +1,37 @@
-# Informe de Proyecto #5: Implementación de SIEM con Wazuh + ELK
+# 🛡️ Informe de Proyecto #5: Implementación de SIEM con Wazuh + ELK
 
-**Fecha:**  
-Mayo de 2025
+**Fecha:** Mayo de 2025  
+**Autor:** Ivanof
 
-**Objetivo:**  
-Desplegar un entorno completo de monitoreo de seguridad con Wazuh integrado al stack ELK para alertar en tiempo real sobre actividades sospechosas y visualizar datos de seguridad.
+## 🎯 Objetivo
 
-**Entorno Utilizado:**  
-- Ubuntu Server 20.04  
-- Wazuh Manager y agentes  
-- ElasticSearch, Logstash y Kibana  
-- Endpoints simulados
+Implementar una solución SIEM funcional utilizando Wazuh y ELK para análisis de logs en tiempo real, generación de alertas y detección de amenazas en endpoints simulados.
 
-**Actividades:**  
-- Instalación y configuración de Wazuh y ELK  
-- Conexión de agentes y validación  
-- Creación de reglas para detectar fuerza bruta SSH  
-- Visualización de logs en Kibana
+## 🧪 Entorno de Laboratorio
 
-**Resultados Obtenidos:**  
-- Alertas de seguridad activas en tiempo real  
-- Paneles de control visuales funcionales  
-- Conocimiento operacional tipo SOC
+- **Sistema Operativo**: Ubuntu Server 20.04 LTS
+- **Componentes**: Wazuh Manager, Agente Wazuh, Filebeat, Elasticsearch, Logstash, Kibana
+- **Red**: LAN virtualizada
+- **Endpoints**: Clientes Linux y Windows simulados
 
-**Habilidades Adquiridas:**  
-- Gestión de SIEM  
-- Reglas de Wazuh  
-- Análisis y visualización de logs
+## 🔧 Actividades Realizadas
+
+1. Instalación de Wazuh + ELK en una sola VM
+2. Despliegue de agentes en endpoints de prueba
+3. Creación de regla personalizada para detectar fuerza bruta SSH
+4. Configuración de Filebeat para recolección de logs
+5. Diseño de dashboards en Kibana
+
+## ✅ Resultados
+
+- Alertas generadas ante ataques SSH simulados
+- Visualización en Kibana de syslog y auth.log
+- Pipeline de logs funcionando de extremo a extremo
+- Capacidad de análisis centralizado de eventos
+
+## 🧠 Habilidades Adquiridas
+
+- Correlación de eventos de seguridad
+- Tuning de reglas de detección
+- Arquitectura e implementación de SIEM
+- Administración de Wazuh y ELK

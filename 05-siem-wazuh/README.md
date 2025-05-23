@@ -1,29 +1,37 @@
-# Project Write-Up #5: SIEM Implementation with Wazuh + ELK
+# 🛡️ Project Write-Up #5: SIEM Implementation with Wazuh + ELK
 
-**Date:**  
-May 2025
+**Date:** May 2025  
+**Author:** Ivanof
 
-**Objective:**  
-Deploy a complete SIEM environment using Wazuh integrated with the ELK Stack to monitor host activities, generate alerts, and visualize security data.
+## 🎯 Objective
 
-**Environment Used:**  
-- Ubuntu Server 20.04  
-- Wazuh manager and agent  
-- ElasticSearch, Logstash, Kibana (ELK)  
-- Simulated endpoints
+To implement a functional SIEM solution using Wazuh integrated with the Elastic Stack (ELK) for real-time log analysis, alerting, and threat detection across endpoints.
 
-**Activities:**  
-- Installation of Wazuh and ELK stack  
-- Agent deployment and connection  
-- Creation of detection rules (SSH brute-force)  
-- Log analysis and dashboard setup in Kibana
+## 🧪 Lab Environment
 
-**Results Achieved:**  
-- Real-time alerting of simulated threats  
-- Visualized system logs and security events  
-- Developed operational SOC-level awareness
+- **OS**: Ubuntu Server 20.04 LTS
+- **SIEM Components**: Wazuh Manager, Wazuh Agent, Filebeat, Elasticsearch, Logstash, Kibana
+- **Network**: Virtualized internal LAN
+- **Endpoints**: Simulated Linux and Windows nodes
 
-**Skills Gained:**  
-- SIEM operations  
-- Wazuh rule management  
-- Log parsing, correlation, and visualization
+## 🔧 Tasks Performed
+
+1. Installed Wazuh manager and ELK on a single VM
+2. Deployed agents on test endpoints
+3. Created a custom rule to detect SSH brute-force attempts
+4. Tuned Filebeat for log forwarding
+5. Created dashboards in Kibana for event visualization
+
+## ✅ Results
+
+- Successfully triggered alerts from simulated SSH brute-force attempts
+- Kibana visualizations for syslogs and auth logs
+- Fully operational log collection pipeline
+- Centralized event analysis and search capabilities
+
+## 🧠 Skills Gained
+
+- Security event correlation
+- Threat detection rule tuning
+- SIEM architecture and deployment
+- Wazuh + ELK administration and troubleshooting
