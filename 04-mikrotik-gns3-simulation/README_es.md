@@ -1,0 +1,1 @@
+Write-up completo en español para simulación con MikroTik y GNS3.

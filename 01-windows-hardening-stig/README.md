@@ -1,1 +1,1 @@
-# Project Write-Up #1: Windows Server 2016 Hardening (CIS STIG)
+Full English write-up for Windows Server 2016 Hardening.

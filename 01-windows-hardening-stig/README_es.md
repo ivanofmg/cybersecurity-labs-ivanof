@@ -1,0 +1,1 @@
+Write-up completo en español para el hardening de Windows Server 2016.

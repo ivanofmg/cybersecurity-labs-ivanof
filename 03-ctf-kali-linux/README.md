@@ -1,1 +1,1 @@
-# Project Write-Up #3: Advanced CTF Challenges in Kali Linux
+Full English write-up for CTF challenges in Kali Linux.

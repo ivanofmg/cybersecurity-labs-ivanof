@@ -1,0 +1,1 @@
+Write-up completo en español para retos CTF con Kali Linux.
