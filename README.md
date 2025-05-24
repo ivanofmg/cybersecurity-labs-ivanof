@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity Labs Portfolio by Ivanof
+# 🛡️ Cybersecurity Labs Portfolio by Ivanof Mercado
 
 Welcome! This repository contains a curated set of hands-on cybersecurity labs designed and documented by **Ivanof**, a Master's student specializing in Cybersecurity Operations and Cyber Warfare.
 
